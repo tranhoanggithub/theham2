@@ -1,0 +1,495 @@
+body{
+    font-family: sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+  /* NAVAGATION */
+.menu{
+    background-color:#757777;
+    width: 100%;
+    height: 90px;
+    opacity: 0.7;
+    top: 0;
+    position: fixed;
+    
+}
+.menu-left{
+    float:left;
+    font-family: sans-serif;
+    width: 40%;
+}
+.hear{
+    padding: 5px 5px 5px 200px;
+    height: 90px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    background-color:aqua;
+    padding-top: -79px;
+    margin-top: 1px;
+}
+.menu-right {
+    background-color: #757777;
+    height: 90px;
+    width: 60%;
+    color: white;
+    font-family: sans-serif;
+    float:right;
+}
+.menu-right ul{
+    list-style-type: none;
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    height: 90px;
+}
+.menu-right ul li{
+    color:white;
+    float:left;
+    width: 75px;
+    height: 70px;
+    line-height: 61px;
+    font-size: 12px;
+}
+.menu-right ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.menu-right ul li a:hover{
+color: aqua;
+}
+/* MAIN1 */
+.main1{
+    text-decoration: none;
+    width: 100%;
+    height: 790px;
+    background-color:#393c3c;
+    background-image: url(./img/h2.jpg);
+}
+.main1 img{ 
+    max-width: 100%;
+    max-height: 100%;
+}
+.main1 h2{
+    color: aqua;
+    padding: 50px 550px ;
+    
+}
+.button1 button{
+    display: inline-block;
+    padding: 15px 25px;
+    /* font-size: 24px; */
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: aqua;
+    border: none;
+     /* border-radius: 5px; 
+    box-shadow: 0 -7px #999; */
+    font-weight: bold;
+}
+.button1-6{
+    display: inline-block;
+    padding: 15px 25px;
+    /* font-size: 24px; */
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: aqua;
+    border: none;
+     border-radius: 5px; 
+    box-shadow: 0 -7px #999;
+    font-weight: bold;
+
+}
+.button1 button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.button2{
+    padding-top: 165px;
+}
+.slider{
+    width: 150px;
+    height: 126px;
+    margin:-52px 1005px;
+
+}
+.slider button{
+    left: 50%;
+    top: 50%;
+    background-color: #000000;
+    width: 40px;
+    height: 40px;
+    background-color: #60deb4;font-size: 20px;font-weight: bold;color: white;
+}
+.slider button:hover{
+    box-shadow: 0 1px 7px .4px #000000;
+}
+.container{
+    width: 100%;
+    height: 276px;
+}
+.col-4main1{
+    width: 24.64%;
+    height: 273px;
+    margin: 2px 2px 2px 2px;
+    float: left;
+    text-align: center;
+}
+/* MAIN2 */
+.main2{
+    text-align: center;
+width: 100%;
+height: 750px;
+padding-top: 60px;
+color:black;
+}
+.row-3{
+    width: 100%;
+}
+.col-3{
+    width: 33%;
+    height: 170.36px;
+    margin: 1px 1px 1px 1px;
+    float: left;
+    text-align: center;
+}
+/* MAIN3 */
+.main3{
+    text-align: center;
+width: 100%;
+height: 750px;
+padding-top: 40px;
+color:black;
+}
+.buttonmain3{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.buttonmain3:hover{
+    color:aqua;
+    background-color: #757777;
+}
+.buttonmain4{
+    background-color:white;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight: bold;
+}
+.buttonmain4:hover{
+    color:aqua;
+    background-color: #e06919;
+}
+.col-4{
+    width: 24%;
+    height: 170px;
+    margin: 1px 1px 1px 1px;
+    float: left;
+    text-align: center;
+    border: 1px solid aqua;
+}
+.icontron{
+    width: 40px;
+    height: 40px;
+    background: red;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    --border-radius: 25px;
+    border-radius: 25px;
+}
+.icontron1-1{
+    width: 40px;
+    height: 40px;
+    background:aqua;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    --border-radius: 25px;
+    border-radius: 25px;
+}
+.icontron1-2{
+    width: 40px;
+    height: 40px;
+    background:white;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    --border-radius: 25px;
+    border-radius: 25px;
+    border: 1px solid aqua;
+}
+.icontron2{
+    width: 100px;
+    height: 100px;
+    border: solid 1px aqua;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    float:left;
+    margin: 50px 110px;
+}
+.icontron3{
+    width: 70px;
+    height: 70px;
+    background:aqua;
+    border-radius: 50%;
+    margin: 15px 15px;
+}
+.icontron22{
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    float:left;
+    margin: 50px 110px;
+    overflow:hidden;
+}
+.icontron22 img{
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    object-fit: cover;
+}
+.icontron33{
+    width: 70px;
+    height: 70px;
+    background:black;
+    border-radius: 50%;
+    margin: 15px 15px;
+}
+.col-3main8{
+    width: 24%;
+    height: 460px;
+    float:left;
+    padding: 2px 2px;
+    border: 1px solid aqua;
+}
+.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important;
+}
+.w3-large {
+    font-size: 18px!important;
+}
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.w3-circle {
+    border-radius: 50%;
+    background-color: #757777;
+}
+.col-3main9{
+    width: 22%;
+    height: 344px;
+    float:left;
+    padding: 2px 2px;
+    background-color:rgb(4, 1, 24);
+    margin:5px 5px;
+}
+.col-3main9 img{
+    width: 100%;
+    height: 100%;
+    float:left;
+    object-fit: cover;
+}
+.form-style-6{
+	font: 95% Arial, Helvetica, sans-serif;
+	max-width: 400px;
+	margin: 10px auto;
+	padding: 16px;
+	background: #F7F7F7;
+}
+.form-style-6 h1{
+	background: #43D1AF;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px #43D1AF;
+	padding: 3%;
+	border: 1px solid #43D1AF;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #43D1AF;
+	border-bottom: 2px solid #30C29E;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: #2EBC99;
+}
+.divmain13{
+    width: 24%;
+    height: 500px;
+    float:left;
+    margin: 2px 2px;
+}
+.button13{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight: bold;
+    width: 31%;
+    float:left;
+    border: 1px solid #b1154a;
+
+}
+.thanhmain3{
+    height: 10px;
+    width: 40%;
+    margin: 15px 400px;
+    padding: 15px 15px;
+    text-align: left;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 15px;
+}
+.col-4 img{
+    width:100%; /*width of your image*/
+    height:100%; /*height of your image*/
+    margin:0; /* If you want no margin */
+    padding:0; /*if your want to padding */
+}
+.buttonmain4:hover{
+    color: white;
+    background-color: #60deb4;
+}
+.main2-6{
+    text-align: center;
+width: 100%;
+height: 750px;
+padding-top: 60px;
+color:black;
+background-color: rgb(1, 8, 27);;
+opacity: 0.7;
+}
+.col-4-main7{
+    background-color: #757777;
+    height: 230px;
+    width: 19%;
+    margin: 3px 10px;
+    width: 24%;
+    height: 170px;
+    margin: 1px 1px 1px 1px;
+    float: left;
+    text-align: center;
+    border: 1px solid aqua;
+}
+.tronnhomain9{
+
+}
+.tronnhomain9 img{
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    object-fit: cover;
+    margin:5px 5px;
+    float: left;
+
+}
+
+
